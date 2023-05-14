@@ -15,6 +15,10 @@ body {
     background-color: #a8a8a8;
 }
 
+.modo-escuro h2 {
+    color: #f5f5f5;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -61,10 +65,42 @@ main .cartao-pokemon {
     gap: 15px;
     border-radius: 15px;
     transition: 0.2s ease-in-out;
+    box-shadow: 1px 5px 40px #00000056;
 }
 
-main .cartao-pokemon:hover {
-    background-color: #96d9d6;
+main .verde:hover {
+    background-color: #7ac74c;
+    box-shadow: 1px 5px 40px #7ac74c;
+}
+
+main .vermelho:hover {
+    background-color: #fc984b;
+    box-shadow: 1px 5px 40px #fc984b;
+}
+
+main .azul:hover {
+    background-color: #449eef;
+    box-shadow: 1px 5px 40px #449eef;
+}
+
+main .verde-escuro:hover {
+    background-color: #a6b91a;
+    box-shadow: 1px 5px 40px #a6b91a;
+}
+
+main .roxo:hover {
+    background-color: #df67ddfb;
+    box-shadow: 1px 5px 40px #df67ddfb;
+}
+
+main .amarelo:hover {
+    background-color: #F9CE3D;
+    box-shadow: 1px 5px 40px #F9CE3D;
+}
+
+main .roxo-claro:hover {
+    background-color: #6A62BA;
+    box-shadow: 1px 5px 40px #6A62BA;
 }
 
 main .cartao-pokemon .informacoes {
@@ -88,7 +124,8 @@ main .cartao-pokemon .gif {
 
 main .cartao-pokemon .tipos {
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 5px;
 }
 
 main .cartao-pokemon .tipo {
@@ -105,7 +142,7 @@ main .cartao-pokemon .tipo {
 }
 
 .fogo {
-    background-color: #ee8130;
+    background-color: #fc984b;
 }
 
 .agua {
@@ -120,9 +157,38 @@ main .cartao-pokemon .tipo {
     background-color: #a6b91a;
 }
 
+.psiquico {
+    background-color: #F74C9A;
+}
+
+.gelo {
+    background-color: #8CD3FE;
+}
+
+.terra {
+    background-color: #D9BD59;
+}
+
+.eletrico {
+    background-color: #F9CE3D;
+}
+
+.fantasma {
+    background-color: #6A62BA;
+}
+
 main .descricao {
     max-height: 80px;
     overflow-y: scroll;
     font-size: 14px;
     padding-right: 10px;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    margin: 50px;
+    color: #333333;
 }
