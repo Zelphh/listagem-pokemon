@@ -1,4 +1,4 @@
-# Big Game Survey 
+# Listagem Pokémon
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Zelphh/listagem-pokemon/blob/main/LICENSE)
 
 # Sobre o projeto
