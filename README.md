@@ -24,9 +24,7 @@ Listagem-pokemon foi um projeto criado na semana "do zero ao programador contrat
 
 # Técnologias usadas:
 
-- HTTP
-- CSS
-- JavaScript
+![NPM](https://img.shields.io/badge/HTML-FF6600) ![NPM](https://img.shields.io/badge/CSS-6F2DA8) ![NPM](https://img.shields.io/badge/JavaScript-F8E473) ![NPM](https://img.shields.io/badge/VSCODE-0080FE)
 
 # Autor
 
